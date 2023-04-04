@@ -1,0 +1,22 @@
+.history {
+  display: flex;
+  border: 1px solid #7e858e;
+  width: 500px;
+}
+.top {
+  color: #7e858e;
+  font-weight: bold;
+  margin-left: 20px;
+  width: 100px;
+}
+.delete-button {
+  background-color: transparent;
+  margin-left: 40px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.delete-img {
+  width: 25px;
+  height: 30px;
+}

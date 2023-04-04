@@ -1,0 +1,127 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.top-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.name {
+  color: #475569;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.welcome {
+  color: #475569;
+  margin-left: 20px;
+}
+.special {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.money-details {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media screen and (max-width: 575px) {
+  .money-details {
+    flex-direction: column;
+  }
+}
+.bottom-container {
+  display: flex;
+}
+@media screen and (max-width: 575px) {
+  .bottom-container {
+    flex-direction: column;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border: 1px solid #475569;
+  justify-content: center;
+  border-radius: 10px;
+}
+.form-heading {
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.title {
+  color: #475569;
+  margin-left: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.input {
+  margin-left: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+  font-weight: 500;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #475569;
+  margin-right: 20px;
+}
+.select-option {
+  height: 30px;
+  margin-left: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #475569;
+  margin-right: 20px;
+}
+.add-button {
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+  width: 50px;
+  height: 28px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.history-heading {
+  margin-left: 20px;
+  color: #1e293b;
+}
+.history-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.history-top {
+  display: flex;
+  border: 1px solid #475569;
+  width: 500px;
+}
+.top-para {
+  color: #1e293b;
+  font-weight: bold;
+  margin-left: 20px;
+  width: 100px;
+}
